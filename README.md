@@ -300,6 +300,7 @@ The resources are divided into the following categories:
 | [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)                                                                                                           | Iconic font aggregator                         |
 | [flaticon.com](https://www.flaticon.com/)                                                                                                                       |
 | [Font Awesome](https://fontawesome.com/)                                                                                                                        |
+| [The 41 best free web fonts](https://www.creativebloq.com/typography/free-web-fonts-1131610)                                                                    |                                                |
 |                                                                                                                                                                 |                                                |
 
 # Git / GitHub
@@ -360,17 +361,16 @@ The resources are divided into the following categories:
 
 ## Videos
 
-| Link | Description |
-| ---- | ----------- |
-
-| [Higher-order functions - Part 1 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)| YouTube|
-| [Map - Part 2 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=bCqtb-Z5YGQ&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=2)|YouTube|
-| [Reduce basics - Part 3 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=Wl98eZpkp-c&t=31s)|YouTube|
-| [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)|YouTube|
-| [Update Data in a List without Mutations](https://egghead.io/lessons/react-update-data-in-a-list-without-mutations)| eggheadio|
-| [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)|eggheadio|
-| [Understand JavaScript's this Keyword in Depth](https://egghead.io/courses/understand-javascript-s-this-keyword-in-depth)|eggheadio|
-|||
+| Link                                                                                                                                                           | Description |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [Higher-order functions - Part 1 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) | YouTube     |
+| [Map - Part 2 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=bCqtb-Z5YGQ&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=2)            | YouTube     |
+| [Reduce basics - Part 3 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=Wl98eZpkp-c&t=31s)                                            | YouTube     |
+| [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)                                                                         | YouTube     |
+| [Update Data in a List without Mutations](https://egghead.io/lessons/react-update-data-in-a-list-without-mutations)                                            | eggheadio   |
+| [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)                                                                            | eggheadio   |
+| [Understand JavaScript's this Keyword in Depth](https://egghead.io/courses/understand-javascript-s-this-keyword-in-depth)                                      | eggheadio   |
+|                                                                                                                                                                |             |
 
 # Snippets and Commands
 
@@ -497,19 +497,37 @@ const generateState = (length) => {
 
 ## Terminal (OSX, Linux ...)
 
-| Command                 | Description                                     |
-| ----------------------- | ----------------------------------------------- |
-| clear                   | scroll past visible content                     |
-| touch ‘filename’        | create filename                                 |
-| mkdir ‘folder’          | create directory                                |
-| pwd                     | present working directory                       |
-| ls -al                  | list of files and directories with hidden files |
-| cd ..                   | one directory level up                          |
-| cd /                    | go to root folder                               |
-| nano filename           | display and edit filename                       |
-| openssl rand -base64 32 | Create encrypted key                            |
-| openssl rand -base64 64 | Create encrypted key                            |
-|                         |                                                 |
+| Command                                      | Description                                     |
+| -------------------------------------------- | ----------------------------------------------- |
+| clear                                        | scroll past visible content                     |
+| touch ‘filename’                             | create filename                                 |
+| mkdir ‘folder’                               | create directory                                |
+| pwd                                          | present working directory                       |
+| ls -al                                       | list of files and directories with hidden files |
+| cd ..                                        | one directory level up                          |
+| cd /                                         | go to root folder                               |
+| nano filename                                | display and edit filename                       |
+| openssl rand -base64 32                      | Create encrypted key                            |
+| openssl rand -base64 64                      | Create encrypted key                            |
+| pwd                                          | present working directory                       |
+| which                                        | find location of variable                       |
+| man ls                                       | help page of “ls”. Quit with q                  |
+| cat filename                                 | display filecontent.                            |
+| less filename                                | display filecontent, scroll with arrows         |
+| nano filename                                | display and modify filecontent                  |
+| open ~                                       | open home directly                              |
+| open filename                                | open file in osx                                |
+| touch filename                               | create filename                                 |
+| mv filename newfilename, mv folder newfolder | rename/move filename to newfilename             |
+| rm filename                                  | remove filename                                 |
+| mkdir folder                                 | create directory                                |
+| rmdir folder                                 | remove directory                                |
+| rm -rf folder                                | remove directory with content                   |
+| chown user filename                          | change ownership of filename to user            |
+| whoami                                       | logged-in user                                  |
+| chgrp group filename                         | change usergroup of filename to group           |
+| alias newcmd=‘commands"                      | create new command                              |
+|                                              |                                                 |
 
 ## GIT
 
@@ -542,6 +560,14 @@ const generateState = (length) => {
 - git remote add origin https://github.com/<username>/<repo>.git
 - git push -u origin --all
 - git push -u origin --tags
+
+//Unlink repository
+
+- git remote rm origin
+- rm .git/FETCH_HEAD
+
+
+
 ```
 
 ---
