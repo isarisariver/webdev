@@ -551,7 +551,7 @@ const generateState = (length) => {
 - create file "Procfile" with content “web: node index.js” in root of repo
 
 | Command                           | Description                                           |
-| --------------------------------- | ----------------------------------------------------- | --- |
+| --------------------------------- | ----------------------------------------------------- |
 | heroku create appname --region eu | create app on heroku with name “appname” in region eu |
 | git push heroku master            | deploy local app to heroku-repo                       |
 | git init                          | create own git repo for heroku app                    |
@@ -560,4 +560,4 @@ const generateState = (length) => {
 | heroku open                       | start app                                             |
 | heroku logs --tail                | display logs                                          |
 | heroku run bash                   | open shell for Heroku dyno (e.g. for debugging)       |
-|                                   |                                                       |     |
+|                                   |                                                       |
