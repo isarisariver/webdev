@@ -54,6 +54,7 @@ The resources are divided into the following categories:
 | [curl](https://curl.se/)                                                                                                                                                                    | command line tool and library                                                                           |
 | [Markdown Tables generator](https://www.tablesgenerator.com/markdown_tables)                                                                                                                |                                                                                                         |
 | [Scaler](https://www.scaler.com/blog/web-development-roadmap/)                                                                                                                              | Explore the Web Development Roadmap! Learn about the latest trends and skills to stay ahead in the ever-changing world of web development.                                                                                                        |
+| [Career Roadmap](https://www.scaler.com/blog/how-to-get-a-job-in-it/)                                                                                                                              | This guide outlines a 7-step roadmap to secure an IT job, covering skill-building, certifications, networking, and interview preparation.                                                                                                        |
 
 # Html
 
