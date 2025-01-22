@@ -53,7 +53,9 @@ The resources are divided into the following categories:
 | [weatherstack API](https://weatherstack.com/documentation)                                                                                                                                  | Retrieve instant, accurate weather information for any location in the world in lightweight JSON format |
 | [curl](https://curl.se/)                                                                                                                                                                    | command line tool and library                                                                           |
 | [Markdown Tables generator](https://www.tablesgenerator.com/markdown_tables)                                                                                                                |                                                                                                         |
-| [Scaler](https://www.scaler.com/blog/web-development-roadmap/)                                                                                                                              | Ideal roadmap for web development                                                                       |
+| [Scaler](https://www.scaler.com/blog/web-development-roadmap/)                                                                                                                              | Ideal roadmap for web development                                                                                                      |
+| [Career Roadmap](https://www.scaler.com/blog/how-to-get-a-job-in-it/)                                                                                                                       | This guide outlines a 7-step roadmap to secure an IT job, covering skill-building, certifications, networking, and interview preparation.                                                                                                        |
+
 
 # Html
 
