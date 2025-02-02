@@ -55,6 +55,9 @@ The resources are divided into the following categories:
 | [Markdown Tables generator](https://www.tablesgenerator.com/markdown_tables)                                                                                                                |                                                                                                         |
 | [Scaler](https://www.scaler.com/blog/web-development-roadmap/)                                                                                                                              | Ideal roadmap for web development                                                                                                      |
 | [Career Roadmap](https://www.scaler.com/blog/how-to-get-a-job-in-it/)                                                                                                                       | This guide outlines a 7-step roadmap to secure an IT job, covering skill-building, certifications, networking, and interview preparation.                                                                                                        |
+| [Applied AI](https://www.appliedaicourse.com/blog/)                                                                                                                                  
+      | Ultimate Resource for AI, Data Science, and Machine Learning Insights.                                                                                                          
+                                                                 |
 
 
 # Html
