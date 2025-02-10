@@ -58,6 +58,7 @@ The resources are divided into the following categories:
 | [Applied AI](https://www.appliedaicourse.com/blog/)                                                                                                                                  
       | Ultimate Resource for AI, Data Science, and Machine Learning Insights.                                                                                                          
                                                                  |
+| [Top 40 High-Paying IT Careers](https://www.appliedaicourse.com/blog/highest-paying-it-jobs/)                                                                                                                       | Discover the 40 highest-paying IT jobs that offer lucrative salaries, career growth, and in-demand skills in the tech industry.                                                                                           |
 
 
 # Html
